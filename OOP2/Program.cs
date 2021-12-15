@@ -12,7 +12,7 @@ namespace OOP2
                               new Student("Ulici", "Raul", new DateTime(2002, 01, 03), "00000000")};
 
 
-            Console.WriteLine(UEO.Index("00000000"));
+            Console.WriteLine(UEO.Index("12345678"));
 
             
         }
