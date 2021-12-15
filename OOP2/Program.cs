@@ -6,7 +6,14 @@ namespace OOP2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Facultate UEO = new Facultate("UEO");
+            UEO.Students = new Student[] {new Student("Afloarei", "David", new DateTime(2002, 01, 01), "12345678"),
+                              new Student("Andrei", "Daniel", new DateTime(2002, 01, 02), "87654321"),
+                              new Student("Ulici", "Raul", new DateTime(2002, 01, 03), "00000000")};
+
+            Console.WriteLine(UEO.Index("00000000"));
+
+            
         }
     }
 }
