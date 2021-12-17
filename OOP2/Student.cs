@@ -8,10 +8,10 @@ namespace OOP2
 {
     public class Student
     {
-        public string FirstName;
-        public string LastName;
-        public DateTime DateOfBirth;
-        public string CNP;
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public string CNP { get; set; }
 
         public Student(string FirstName, string LastName, DateTime DateOfBirth, string CNP)
         {
